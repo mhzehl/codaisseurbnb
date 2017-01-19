@@ -40,6 +40,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 # Use for image upload
 gem 'carrierwave'
+# Use for static assets
+gem 'cloudinary'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
