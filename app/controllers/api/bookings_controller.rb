@@ -1,5 +1,4 @@
-class Api::BookingsController < ApplicationController
-  skip_before_action :verify_authenticity_token
+class Api::BookingsController < Api::BaseController
   before_action :set_room
 
   def create

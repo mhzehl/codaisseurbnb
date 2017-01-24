@@ -42,6 +42,10 @@ gem 'devise'
 gem 'carrierwave', '0.11.2'
 # Use for static assets
 gem 'cloudinary', '1.2.3'
+# Use for serializing models
+gem 'active_model_serializers', '~> 0.10.0'
+# Use to create API user tokens
+gem 'has_secure_token'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
