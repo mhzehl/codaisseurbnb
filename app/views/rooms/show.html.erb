@@ -16,16 +16,31 @@
     <p>Address: <%= @room.address %></p>
     <p>Host: <%= @room.user.email %></p>
 
+    <hr>
+
     <!-- Main Info -->
     <h4>Main Info</h4>
-    <p>Home Type: <%= @room.home_type %></p>
-    <p><%= @room.accommodate %> <%= @room.accommodate > 1 ? "Guests" : "Guest" %></p>
-    <p><%= @room.bedroom_count %> <%= @room.bedroom_count > 1 ? "Bedrooms" : "Bedroom" %></p>
-    <p><%= @room.bathroom_count %> <%= @room.bathroom_count > 1 ? "Bathrooms" : "Bathroom" %></p>
+    <p>Home Type:</p>
+    <ul>
+      <li><%= @room.home_type %></li>
+    </ul>
+    <p>Number of guests:</p>
+    <ul>
+      <li><%= @room.accommodate %></li>
+    </ul>
+    <p>Rooms:</p>
+    <ul>
+      <li><%= @room.bedroom_count %> <%= @room.bedroom_count > 1 ? "Bedrooms" : "Bedroom" %></li>
+      <li><%= @room.bathroom_count %> <%= @room.bathroom_count > 1 ? "Bathrooms" : "Bathroom" %></li>
+    </ul>
+
+    <hr>
 
     <!-- About -->
     <h4>About</h4>
     <p><%= @room.description %></p>
+
+    <hr>
 
     <!-- Amenities -->
     <h4>Amenities</h4>
@@ -37,6 +52,8 @@
       <li><%= !@room.has_airco ? ("<del>Air Conditioning</del>").html_safe : "Air Conditioning" %></li>
     </ul>
 
+    <hr>
+
     <!-- Photos -->
     <h4>Photos</h4>
     <% @room.photos.each do |photo| %>
@@ -46,6 +63,8 @@
       </div>
     </div>
     <% end %>
+
+    <hr>
 
     <!-- Themes -->
     <h4>Themes</h4>

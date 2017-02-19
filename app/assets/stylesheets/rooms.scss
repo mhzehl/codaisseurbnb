@@ -6,6 +6,7 @@
 .panel-primary > .panel-heading {
   background-color: #ff5a5f;
   border-color: #aa383b;
+  font-size: 20px;
 }
 
 .col-md-5 {
@@ -18,4 +19,22 @@
 
 .sidebar-link {
   color: #000;
+}
+
+.panel-default {
+  border-color: #aa383b;
+}
+
+.panel-default > .panel-heading {
+  border-color: #aa383b;
+}
+
+.panel-default > .panel-heading .preview {
+  background-color: #fff;
+}
+
+.panel-heading.edit {
+  background-color: #ff5a5f;
+  color: #fff;
+  font-size: 20px;
 }
