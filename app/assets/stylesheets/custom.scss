@@ -1,7 +1,7 @@
 // Navigation
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #ff5a5f;
 }
 .navbar-brand {
   text-transform: uppercase;
@@ -9,5 +9,20 @@
 }
 
 .navbar-default .navbar-brand {
-  color: #C94522;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+// Buttons
+.btn-primary {
+  background-color: #ff5a5f;
+  border-color: #aa383b;
+}
+
+.btn-primary:hover {
+  background-color: #ff8285;
+  border-color: #c46465;
 }
