@@ -1,3 +1,21 @@
-// Place all the styles related to the Rooms controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// Rooms
+.panel-primary {
+  border-color: #aa383b;
+}
+
+.panel-primary > .panel-heading {
+  background-color: #ff5a5f;
+  border-color: #aa383b;
+}
+
+.col-md-5 {
+  text-align: right;
+}
+
+.sidebar-link.active {
+  color: #ff5a5f;
+}
+
+.sidebar-link {
+  color: #000;
+}
