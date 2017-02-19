@@ -1,3 +1,35 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background-image: url(http://res.cloudinary.com/dyl4vtost/image/upload/v1487525775/joshua-earle-2521_mmcuzv.jpg);
+  background-size: cover;
+  background-position-y: 50%;
+  width: 100%;
+  height: 700px;
+  margin-top: -92px;
+  color: #fff;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+}
+
+.banner-text h1 {
+  background-color: black;
+  opacity: 0.6;
+  height: 50px;
+  width: 400px;
+  font-size: 44px;
+  margin-bottom: 200px;
+}
